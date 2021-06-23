@@ -5,12 +5,13 @@ const Nav = () => {
             <div className="nav-container">
                 <img src={image} alt="" />
                 <a href="/" className="navbar-logo">Sinusik ART</a>
-                <ul className="nav-menu">
-                    <a href="/">About</a>
-                    <a href="/">Works</a>
-                    <a href="/">Contact</a>
-                </ul>
             </div>
+            <ul className="nav-menu">
+                <a href="/">About</a>
+                <a href="/">Works</a>
+                <a href="/">Contact</a>
+            </ul>
+
         </nav>
     )
 }
