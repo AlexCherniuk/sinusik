@@ -1,0 +1,36 @@
+
+nav {
+    grid-area: nav;
+    background-color: rgb(237, 247, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  nav a {
+    text-decoration: none;
+    padding: 0.5rem ;
+  }
+  
+  nav img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    padding-right: 1rem;
+  }
+  
+  .nav_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right: 30rem;
+  }
+  
+  .nav_menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
