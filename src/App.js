@@ -1,13 +1,17 @@
 import './App.css';
-import Footer from './components/Footer';
-import Main from './components/Main';
-import Nav from './components/Nav';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+import Main from './components/Main/Main';
+import Nav from './components/Nav/Nav';
 
 const App = () => {
   return (
     <div className="grid-container ">
       <Nav />
-      <Main />
+      <div className='main'>
+        <Main />
+        <About />
+      </div>
       <Footer />
     </div>
   );

@@ -1,6 +1,8 @@
+import s from "./Footer.module.css"
+
 const Footer = (params) => {
     return (
-        <footer className="footer">
+        <footer className={s.footer}>
             All right is reserved.
         </footer>
     )
