@@ -1,0 +1,42 @@
+header {
+  grid-area: header;
+  align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+  }
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav img {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 6rem;
+    padding: 1rem;
+  }
+  
+  .nav_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav_menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  ul a {
+    padding: 1.5rem ;
+  }
+
+  ul a.active {
+    color: green;
+  }

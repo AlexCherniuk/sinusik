@@ -6,6 +6,7 @@ body,
 #root {
   height: 100vh;
   margin: 0;
+  background-color: #fff8ef;
 }
 
 body, input, select, textarea {
@@ -16,10 +17,10 @@ body, input, select, textarea {
 .grid-container {
   display: grid;
   grid-template-areas: 
-  "nav"
+  "header"
   "main"
   "footer";
-  grid-template-rows:5rem 1fr 5rem;
+  grid-template-rows:10rem 1fr 5rem;
   grid-template-columns: 1fr; 
   height: 100%;
 } 
