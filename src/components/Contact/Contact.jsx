@@ -1,8 +1,8 @@
-
+import s from './Contact.module.css'
 const Contact = () => {
     return (
-        <div>
-            Contact
+        <div className={s.block}>
+            Contacts
         </div>
     )
 }
