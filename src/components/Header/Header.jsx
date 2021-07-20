@@ -6,7 +6,6 @@ const Nav = (props) => {
     return <NavLink to={props.to} activeClassName={s.active}>{props.name}</NavLink>
 }
 
-
 const Header = () => {
 
     return (
@@ -25,7 +24,6 @@ const Header = () => {
                         <Nav to="/contact" name="Contact" />
                     </ul>
                 </div>
-
             </nav>
         </header>
 
