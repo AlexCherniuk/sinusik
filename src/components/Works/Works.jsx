@@ -1,42 +1,18 @@
-import s from './Works.module.css'
-
-let paintings = [
-    {
-        "_id": "woman",
-        "image": "https://media.artsper.com/artwork/939240_1_m.jpg",
-        "title": "woman in room",
-        "description": "this girl in the room",
-        "category": [
-            "2020"
-        ]
-    },
-    {
-        "_id": "head",
-        "image": "https://media.artsper.com/artwork/943362_1_m.jpg",
-        "title": "head in the room",
-        "description": "this head in the room",
-        "category": [
-            "2020"
-        ]
-    }
-]
-
-const Work = (props) => {
-    return (
-        <div className={s.block}>
-            <img src={props.src} alt="pictures"/>
-            <p>{props.title}</p>
-        </div>  //компонента с картиной и описанием
-    );
-}
+import WorkItem from "./WorkItem/WorkItem";
 
 
 
-const Works = () => {
+//remove to new folder
+
+
+
+const Works = (props) => {
+    
+    let paintings = props.data.map(el => <WorkItem src={el.image} title={el.title} />)
+    
     return (
         <div>
-            <Work src={paintings[0].image}  title={paintings[0].title}/>
-            <Work src={paintings[1].image}  title={paintings[1].title}/>
+            {paintings}
         </div>
     )
 }

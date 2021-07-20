@@ -7,16 +7,17 @@ import Main from './components/Main/Main';
 import Works from './components/Works/Works';
 import Header from './components/Header/Header';
 
-const App = () => {
+
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className="grid-container ">
         <Header />
         <div className='main'>
-          <Route path="/main" component={Main} />
-          <Route path="/about" component={About} />
-          <Route path="/works" component={Works} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/index.html" render={() => <Main/>} />
+          <Route path="/about" render={() => <About about={props.about} />}/>
+          <Route path="/works" render={() => <Works data={props.data}/>} />
+          <Route path="/contact" render={() => <Contact data={props.contact}/>} />
         </div>  
         <Footer />
       </div>
