@@ -3,8 +3,14 @@
     justify-content: center;
 }
 .text {
-    box-sizing: border-box;
-}
+    display: flex;
+    text-decoration: inherit!important;
+    width: 32.79311em;
+    height: 24.88938em;
+    z-index: 1;
+    border-radius: 0px;
+    text-align: left;
+    }
 
 ul a{
     text-decoration: none;

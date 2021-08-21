@@ -17,7 +17,7 @@ const App = (props) => {
           <Route path="/index.html" render={() => <Main/>} />
           <Route path="/about" render={() => <About about={props.about} />}/>
           <Route path="/works" render={() => <Works data={props.data}/>} />
-          <Route path="/contact" render={() => <Contact data={props.contact}/>} />
+          <Route path="/contact" render={() => <Contact images={props.images} data={props.contact}/>} />
         </div>  
         <Footer />
       </div>
