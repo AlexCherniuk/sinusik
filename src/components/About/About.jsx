@@ -1,5 +1,4 @@
 import s from "./About.module.css"
-import img from ""
 
 const About = (props) => {
     return (
