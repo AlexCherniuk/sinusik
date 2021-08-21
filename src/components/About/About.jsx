@@ -5,7 +5,6 @@ const About = (props) => {
     return (
         <div className={s.block}>
             <p className={s.text}>{props.about}</p>
-            <img></img>
         </div>
             )
 }
