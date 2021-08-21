@@ -1,17 +1,11 @@
 import s from "./About.module.css"
-
+import img from ""
 
 const About = (props) => {
     return (
         <div className={s.block}>
-            <ul className={s.text}>
-            <a href="/">sinusikvova@gmail.com</a> 
-            <li>lsdfsj;d</li>
-            <li>{props.about}</li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+            <p className={s.text}>{props.about}</p>
+            <img></img>
         </div>
             )
 }

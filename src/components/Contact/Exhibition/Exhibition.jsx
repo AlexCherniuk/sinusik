@@ -1,11 +1,18 @@
-import s from "./../Contact.module.css"
+import s from "./Exhibition.module.css";
+
+const Kartinka = (props) => {
+    return(
+    <img src={props.img} alt="photocard"/>
+)
+}
 
 const Exhibition = (props) => {
+    let mapForImg = props.images.map(el => <Kartinka img= {el}/>)
     return (
         <div className={s.block}>
             <h2>{props.year}</h2>
             <div>{props.location}</div>
-            <img width={100} height={100} src={props.images} alt="imagesses" />
+            <div className={s.image}>{mapForImg}</div>
         </div>
     )
 }
