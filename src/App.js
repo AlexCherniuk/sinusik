@@ -14,11 +14,11 @@ const App = (props) => {
       <div className="grid-container ">
         <Header />
         <div className='main'>
-          <Route path="/index.html" render={() => <Main/>} />
-          <Route path="/about" render={() => <About about={props.about} />}/>
-          <Route path="/works" render={() => <Works data={props.data}/>} />
-          <Route path="/contact" render={() => <Contact images={props.images} data={props.contact}/>} />
-        </div>  
+          <Route path="/index.html" render={() => <Main />} />
+          <Route path="/about" render={() => <About about={props.about} />} />
+          <Route path="/works" render={() => <Works data={props.data} />} />
+          <Route path="/contact" render={() => <Contact images={props.images} data={props.contact} />} />
+        </div>
         <Footer />
       </div>
     </BrowserRouter>

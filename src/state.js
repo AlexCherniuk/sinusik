@@ -2,6 +2,7 @@
 let state = {
     about: {
         aboutData: "By using traditional techniques in oil painting Volodymyr Sinusik’s (b. 1991) in Cherkasy, Ukraine work comprises the aesthetics of landscapes and his surrounding in every-day life. His works speak volume about the beauty within nature, using also drawing techniques to evolve his body of work.  The use of a specific shade of colors, unique brush strokes,  and Sinusik’s consistence style evokes a world of harmonious sounds,  which could be referred to extensive range of tones.  Sinusik’s work and travel experience in 2019 in Denmark, influenced and inspired  his recent artworks, as he felt a personal connection to the country. His interested lies also in cultural differences, other forms of art, and the exchange with other artists.  His works are housed in private collections in USA, United Kingdom",
+        photo: "/images/exhibitions/photo_vova.png"
     },
     works: {
         paintingsData: [
