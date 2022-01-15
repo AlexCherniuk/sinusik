@@ -9,7 +9,7 @@ import state from './state.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App  images={state.contact.contactData} contact={state.contact.contactData} about={state.about.aboutData} data={state.works.paintingsData} />
+    <App  images={state.contact.contactData} contact={state.contact.contactData} about={state.about} data={state.works.paintingsData} />
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -18,3 +18,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+<p/> 

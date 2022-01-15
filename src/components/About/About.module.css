@@ -1,23 +1,20 @@
 .block {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .text {
     display: flex;
+    font-family: Lora, serif;
     text-decoration: inherit!important;
     width: 32.79311em;
     height: 24.88938em;
     z-index: 1;
-    border-radius: 0px;
+    border-radius: 2px;
     text-align: left;
+    text-transform: unset;
     }
 
-ul a{
-    text-decoration: none;
-    color: black;
-}
 
-ul li{
-    text-decoration: none;
-    list-style-type:none
+img {
+    height: 24.88938em;
 }
